@@ -1,0 +1,50 @@
+.call-back-main {
+    background-color: rgb(42, 3, 58);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2pc;
+    padding: 3pc;
+}
+
+.call-back-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-back-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.call-back-form {
+    display: flex;
+    gap: 1pc;
+    height: 30vh;
+}
+
+.form-call {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+}
+
+.form-call-y {
+    justify-items: flex-start;
+}
+.call-back-input {
+    height: 2.5pc;
+    width: 20pc;
+    border: none;
+    padding: .2pc .2pc;
+}
+
+.cb-submit {
+    width: 6pc;
+    background-color: rgb(6, 153, 80);
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+

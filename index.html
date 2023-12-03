@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUEST CALL BACK FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="call-back-main">
+        <div class="call-back-info">
+            <p class="call-back-title">Request A Call Back</p>
+            <p class="call-back-txt">Leave us your Name, Phone Number, Email and Request. We will call back and advise you.</p>
+        </div>
+        <form action="mail.php" class="call-back-form">
+            <div class="form-call-x form-call">
+                <input type="text" name="clientName" class="call-back-input cb-name" id="clientName" placeholder="Your Name">
+                <input type="text" name="clientPhone" id="clientPhone" class="call-back-input cb-phone" placeholder="Phone Number">
+                <textarea cols="20" name="clientRequest" id="clientRequest" class="call-back-input cb-request" placeholder="Your Request"></textarea>
+            </div>
+            <div class="form-call-y form-call">
+                <input type="email" name="clientEmail" id="clientEmail" class="call-back-input cb-email" placeholder="Your Email">
+                <input type="submit" value="Send" class="call-back-input cb-submit" id="clientSubmit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
